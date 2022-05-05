@@ -254,6 +254,8 @@ foreach(file
   CMake/ctkFunctionGetTargetDependencies.cmake
   CMake/ctkFunctionGetPluginDependencies.cmake
   CMake/ctkMacroSetupPlugins.cmake
+  CMake/MANIFEST.MF.in
+  CMake/plugin_manifest.qrc.in
   )
   include(${file})
   install(FILES ${file} DESTINATION ${CTK_INSTALL_CMAKE_DIR} COMPONENT Development)
