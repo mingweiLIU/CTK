@@ -254,8 +254,6 @@ foreach(file
   CMake/ctkFunctionGetTargetDependencies.cmake
   CMake/ctkFunctionGetPluginDependencies.cmake
   CMake/ctkMacroSetupPlugins.cmake
-  CMake/MANIFEST.MF.in
-  CMake/plugin_manifest.qrc.in
   )
   include(${file})
   install(FILES ${file} DESTINATION ${CTK_INSTALL_CMAKE_DIR} COMPONENT Development)
@@ -266,6 +264,8 @@ foreach(file
   CMake/ctkLinkerAsNeededFlagCheck.cmake
   CMake/ctk_compile_python_scripts.cmake.in
   CMake/CMakeFindDependencyMacro.cmake
+  CMake/MANIFEST.MF.in
+  CMake/plugin_manifest.qrc.in
   )
   install(FILES ${file} DESTINATION ${CTK_INSTALL_CMAKE_DIR} COMPONENT Development)
 endforeach()
