@@ -9,6 +9,7 @@ set(KIT_export_directive "CTK_PLUGINFW_EXPORT")
 
 # Source files
 set(KIT_SRCS
+  iDTBPlugin.h
   ctkApplicationRunnable.cpp
   ctkBasicLocation_p.h
   ctkBasicLocation.cpp

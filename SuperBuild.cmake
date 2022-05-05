@@ -39,6 +39,8 @@ if(CMAKE_CXX_STANDARD)
   set(ep_cxx_standard_arg "-DCMAKE_CXX_STANDARD:STRING=${CMAKE_CXX_STANDARD}")
 endif()
 
+set(_INSTALL_CMD "")
+
 ExternalProject_Add(${proj}
   ${${proj}_EP_ARGS}
   DOWNLOAD_COMMAND ""
@@ -54,7 +56,7 @@ ExternalProject_Add(${proj}
     ${ep_cxx_standard_arg}
   SOURCE_DIR ${CTK_SOURCE_DIR}
   BINARY_DIR ${CTK_BINARY_DIR}/CTK-build
-  INSTALL_COMMAND ""
+  INSTALL_COMMAND ${_INSTALL_CMD}
   DEPENDS
     ${CTK_DEPENDENCIES}
   )

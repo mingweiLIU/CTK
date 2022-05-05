@@ -164,7 +164,7 @@ if(NOT CTK_INSTALL_PLUGIN_DIR)
   set(CTK_INSTALL_PLUGIN_DIR "lib/ctk-${CTK_MAJOR_VERSION}.${CTK_MINOR_VERSION}/plugins")
 endif()
 if(NOT CTK_INSTALL_CMAKE_DIR)
-  set(CTK_INSTALL_CMAKE_DIR "lib/ctk-${CTK_MAJOR_VERSION}.${CTK_MINOR_VERSION}/CMake")
+  set(CTK_INSTALL_CMAKE_DIR "cmake")
 endif()
 if(NOT CTK_INSTALL_INCLUDE_DIR)
   set(CTK_INSTALL_INCLUDE_DIR "include/ctk-${CTK_MAJOR_VERSION}.${CTK_MINOR_VERSION}")
@@ -273,6 +273,7 @@ install(FILES
 #-----------------------------------------------------------------------------
 # Testing
 #
+option(BUILD_TESTING "" OFF)
 include(CTest)
 mark_as_advanced(BUILD_TESTING)
 mark_as_superbuild(BUILD_TESTING)
@@ -481,11 +482,11 @@ ctk_lib_option(Core
                "Build the Core library" ON)
 
 ctk_lib_option(PluginFramework
-               "Build the Plugin Framework" OFF
+               "Build the Plugin Framework" ON
                CTK_ENABLE_PluginFramework)
 
 ctk_lib_option(Widgets
-               "Build the Widgets library" OFF
+               "Build the Widgets library" ON
                CTK_ENABLE_Widgets OR (CTK_ENABLE_DICOMApplicationHosting AND CTK_BUILD_EXAMPLES) OR CTK_USE_QTTESTING)
 
 ctk_lib_option(DICOM/Core
@@ -669,7 +670,7 @@ if(CTK_QT_VERSION VERSION_LESS "5")
 endif()
 
 foreach(_plugin ${plugin_list})
-  ctk_plugin_option(${_plugin} "Build the ${_plugin} plugin." OFF)
+  ctk_plugin_option(${_plugin} "Build the ${_plugin} plugin." ON)
 endforeach()
 
 # Plug-ins related to the PluginGenerator application
