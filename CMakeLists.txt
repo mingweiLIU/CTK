@@ -247,6 +247,13 @@ foreach(file
   CMake/ctkFunctionGetGccVersion.cmake
   CMake/ctkFunctionGetCompilerVisibilityFlags.cmake
   CMake/ctkFunctionCompileSnippets.cmake
+
+  CMake/ctkFunctionExtractPluginTargets.cmake
+  CMake/ctkFunctionGeneratePluginUseFile.cmake
+  CMake/ctkFunctionGetAllPluginTargets.cmake
+  CMake/ctkFunctionGetTargetDependencies.cmake
+  CMake/ctkFunctionGetPluginDependencies.cmake
+  CMake/ctkMacroSetupPlugins.cmake
   )
   include(${file})
   install(FILES ${file} DESTINATION ${CTK_INSTALL_CMAKE_DIR} COMPONENT Development)
