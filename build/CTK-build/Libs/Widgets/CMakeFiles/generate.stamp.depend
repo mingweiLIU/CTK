@@ -1,5 +1,0 @@
-# CMake generation dependency list for this directory.
-E:/OpenSource/CTK/Libs/Widgets/CMakeLists.txt
-E:/OpenSource/CTK/Libs/Widgets/Resources/ctkWidgets.qrc
-E:/OpenSource/CTK/Libs/Widgets/target_libraries.cmake
-E:/OpenSource/CTK/Libs/ctkExport.h.in

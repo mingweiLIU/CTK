@@ -1,3 +1,0 @@
-Plugin-SymbolicName: org.commontk.configadmin
-Plugin-ActivationPolicy: eager
-

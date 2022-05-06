@@ -1,3 +1,0 @@
-Plugin-SymbolicName: org.commontk.metatype
-Plugin-ActivationPolicy: eager
-

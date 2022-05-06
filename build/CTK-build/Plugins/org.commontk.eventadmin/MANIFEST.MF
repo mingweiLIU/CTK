@@ -1,3 +1,0 @@
-Plugin-SymbolicName: org.commontk.eventadmin
-Plugin-ActivationPolicy: eager
-

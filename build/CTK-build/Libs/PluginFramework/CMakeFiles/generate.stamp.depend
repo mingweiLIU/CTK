@@ -1,7 +1,0 @@
-# CMake generation dependency list for this directory.
-E:/OpenSource/CTK/CMake/MANIFEST.MF.in
-E:/OpenSource/CTK/CMake/plugin_manifest.qrc.in
-E:/OpenSource/CTK/Libs/PluginFramework/CMakeLists.txt
-E:/OpenSource/CTK/Libs/PluginFramework/target_libraries.cmake
-E:/OpenSource/CTK/Libs/ctkExport.h.in
-E:/OpenSource/CTK/build/CTK-build/Libs/PluginFramework/system_plugin_manifest.qrc

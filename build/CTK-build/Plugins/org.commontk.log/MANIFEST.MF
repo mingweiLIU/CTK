@@ -1,4 +1,0 @@
-Plugin-SymbolicName: org.commontk.log
-Plugin-ActivationPolicy: eager
-Plugin-Name: Log Service
-

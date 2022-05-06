@@ -1,3 +1,0 @@
-E:/OpenSource/CTK/build/Utilities/DGraph/CMakeFiles/DGraph.dir
-E:/OpenSource/CTK/build/Utilities/DGraph/CMakeFiles/ALL_BUILD.dir
-E:/OpenSource/CTK/build/Utilities/DGraph/CMakeFiles/ZERO_CHECK.dir
