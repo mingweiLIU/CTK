@@ -10,4 +10,4 @@ CMakeLists.txt.user*
 
 # ignore ctags file
 tags
-/build
+build/
