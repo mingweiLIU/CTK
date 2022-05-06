@@ -244,7 +244,7 @@ foreach(child ${children})
       if(IS_DIRECTORY  ${CMAKE_CURRENT_SOURCE_DIR}/${child}/${subdirChild})
         #拷贝这个数据了
         file(GLOB subHeaders "${CMAKE_CURRENT_SOURCE_DIR}/${child}/${subdirChild}/*.h" "${CMAKE_CURRENT_SOURCE_DIR}/${child}/${subdirChild}/*.tpp")
-        install(FILES ${headers} DESTINATION ${CTK_INSTALL_INCLUDE_DIR}/${child}/${subdirChild} COMPONENT Development)      
+        install(FILES ${subHeaders} DESTINATION ${CTK_INSTALL_INCLUDE_DIR}/${child}/${subdirChild} COMPONENT Development)      
       endif(IS_DIRECTORY)      
     endforeach(subdirChild)
 
