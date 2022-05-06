@@ -1,0 +1,8 @@
+8 6
+CTKTesting
+CTKPluginFramework CTKCore
+CTKWidgets CTKCore
+org_commontk_configadmin CTKPluginFramework
+org_commontk_eventadmin CTKPluginFramework
+org_commontk_log CTKPluginFramework
+org_commontk_metatype CTKPluginFramework

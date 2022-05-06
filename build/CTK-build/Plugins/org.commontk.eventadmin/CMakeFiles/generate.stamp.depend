@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+D:/Apps/CMake/share/cmake-3.17/Modules/CMakeParseArguments.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5/Qt5Config.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake
+E:/OpenSource/CTK/CMake/MANIFEST.MF.in
+E:/OpenSource/CTK/CMake/plugin_manifest.qrc.in
+E:/OpenSource/CTK/Libs/ctkExport.h.in
+E:/OpenSource/CTK/Plugins/org.commontk.eventadmin/CMakeLists.txt
+E:/OpenSource/CTK/Plugins/org.commontk.eventadmin/manifest_headers.cmake
+E:/OpenSource/CTK/Plugins/org.commontk.eventadmin/target_libraries.cmake
+E:/OpenSource/CTK/build/CTK-build/Plugins/org.commontk.eventadmin/org_commontk_eventadmin_manifest.qrc

@@ -1,0 +1,11 @@
+-IE:/OpenSource/CTK/Libs/Core
+-IE:/OpenSource/CTK/build/CTK-build/Libs/Core
+-IE:/OpenSource/CTK/build/CTK-build/Libs/Core/Resources/UI
+-IE:/OpenSource/CTK/build/CTK-build
+-DWIN32
+--compiler-flavor=msvc
+-fctkModelTester.h
+-DHAVE_QT5
+-o
+E:/OpenSource/CTK/build/CTK-build/Libs/Core/moc_ctkModelTester.cpp
+E:/OpenSource/CTK/Libs/Core/ctkModelTester.h

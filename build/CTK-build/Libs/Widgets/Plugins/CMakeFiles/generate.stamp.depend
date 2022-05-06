@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5/Qt5Config.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5Designer/Qt5DesignerConfig.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5Designer/Qt5DesignerConfigVersion.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5Designer/Qt5Designer_QAxWidgetPlugin.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5Designer/Qt5Designer_QQuickWidgetPlugin.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5Designer/Qt5Designer_QWebEngineViewPlugin.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5UiPlugin/Qt5UiPluginConfig.cmake
+D:/Apps/anaconda3/envs/builder/Library/lib/cmake/Qt5UiPlugin/Qt5UiPluginConfigVersion.cmake
+E:/OpenSource/CTK/Libs/Widgets/Plugins/CMakeLists.txt
+E:/OpenSource/CTK/Libs/Widgets/Plugins/Resources/ctkWidgetsPlugins.qrc
+E:/OpenSource/CTK/Libs/ctkExport.h.in

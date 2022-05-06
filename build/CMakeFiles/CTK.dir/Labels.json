@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/CTK"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/95e5354f0f4651c7d5af6b3705c9ba82/CTK.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/13a4aa1a4b2532434d8670e11f5e5431/CTK-complete.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/9f2e45c653fa9f3b64d9c277e1ea3ba5/CTK-install.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/9f2e45c653fa9f3b64d9c277e1ea3ba5/CTK-mkdir.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/9f2e45c653fa9f3b64d9c277e1ea3ba5/CTK-download.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/9f2e45c653fa9f3b64d9c277e1ea3ba5/CTK-update.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/9f2e45c653fa9f3b64d9c277e1ea3ba5/CTK-patch.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/9f2e45c653fa9f3b64d9c277e1ea3ba5/CTK-configure.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/9f2e45c653fa9f3b64d9c277e1ea3ba5/CTK-build.rule"
+		},
+		{
+			"file" : "E:/OpenSource/CTK/build/CMakeFiles/9f2e45c653fa9f3b64d9c277e1ea3ba5/CTK-forceconfigure.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CTK"
+		],
+		"name" : "CTK"
+	}
+}

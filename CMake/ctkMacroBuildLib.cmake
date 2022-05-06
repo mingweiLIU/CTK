@@ -18,6 +18,18 @@
 #
 ###########################################################################
 
+#lmw add for subdir name
+MACRO(SUBDIRLIST result curdir)
+  FILE(GLOB children RELATIVE ${curdir} ${curdir}/*)
+  SET(dirlist "")
+  FOREACH(child ${children})
+    IF(IS_DIRECTORY ${curdir}/${child})
+      LIST(APPEND dirlist ${child})
+    ENDIF()
+  ENDFOREACH()
+  SET(${result} ${dirlist})
+ENDMACRO()
+
 #
 # Depends on:
 #  CTK/CMake/ctkMacroParseArguments.cmake
@@ -210,6 +222,40 @@ ${${MY_EXPORT_CUSTOM_CONTENT_FROM_VARIABLE}}
     ${dynamicHeaders}
     DESTINATION ${CTK_INSTALL_INCLUDE_DIR} COMPONENT Development
     )
+
+  #lmw add for subdir list
+  MACRO(SUBDIRLIST result curdir)
+  FILE(GLOB children RELATIVE ${curdir} ${curdir}/*)
+  SET(dirlist "")
+  FOREACH(child ${children})
+    IF(IS_DIRECTORY ${curdir}/${child})
+      LIST(APPEND dirlist ${child})
+    ENDIF()
+  ENDFOREACH()
+  SET(${result} ${dirlist})
+ENDMACRO()
+
+#lmw add
+file(GLOB children RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/*)
+foreach(child ${children})
+  if(IS_DIRECTORY  ${CMAKE_CURRENT_SOURCE_DIR}/${child})
+    file(GLOB subdir RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/${child} ${CMAKE_CURRENT_SOURCE_DIR}/${child}/*)
+    foreach(subdirChild ${subdir})
+      if(IS_DIRECTORY  ${CMAKE_CURRENT_SOURCE_DIR}/${child}/${subdirChild})
+        #拷贝这个数据了
+        file(GLOB subHeaders "${CMAKE_CURRENT_SOURCE_DIR}/${child}/${subdirChild}/*.h" "${CMAKE_CURRENT_SOURCE_DIR}/${child}/${subdirChild}/*.tpp")
+        install(FILES ${headers} DESTINATION ${CTK_INSTALL_INCLUDE_DIR}/${child}/${subdirChild} COMPONENT Development)      
+      endif(IS_DIRECTORY)      
+    endforeach(subdirChild)
+
+    #拷贝外面的数据    
+    file(GLOB dirHeaders "${CMAKE_CURRENT_SOURCE_DIR}/${child}/*.h" "${CMAKE_CURRENT_SOURCE_DIR}/${child}/*.tpp")
+    install(FILES ${dirHeaders} DESTINATION ${CTK_INSTALL_INCLUDE_DIR}/${child} COMPONENT Development)
+
+  endif(IS_DIRECTORY  )  
+endforeach(child ${children})
+#end lmw add
+
 
 endmacro()
 

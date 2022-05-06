@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkAttributeDefinitionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMetaTypeActivator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMetaTypeInformationImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMetaTypeProviderImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMetaTypeServiceImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTDataParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTLocalizationElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTLogTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTProviderTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkObjectClassDefinitionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\build\CTK-build\Plugins\org.commontk.metatype\moc_ctkMetaTypeActivator_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\build\CTK-build\Plugins\org.commontk.metatype\moc_ctkMetaTypeServiceImpl_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\CTK\build\CTK-build\Plugins\org.commontk.metatype\qrc_org_commontk_metatype_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkAttributeDefinitionImpl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMetaTypeActivator_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMetaTypeInformationImpl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMetaTypeProviderImpl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMetaTypeServiceImpl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTDataParser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTIcon_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTLocalizationElement_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTLogTracker_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTMsg_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkMTProviderTracker_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\ctkObjectClassDefinitionImpl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\OpenSource\CTK\build\CTK-build\CMakeFiles\a173cc8f381bd16f3f54c80ae4468d28\moc_ctkMetaTypeActivator_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\OpenSource\CTK\build\CTK-build\CMakeFiles\a173cc8f381bd16f3f54c80ae4468d28\moc_ctkMetaTypeServiceImpl_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\OpenSource\CTK\build\CTK-build\Plugins\org.commontk.metatype\org_commontk_metatype_manifest.qrc" />
+    <CustomBuild Include="E:\OpenSource\CTK\Plugins\org.commontk.metatype\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{92DB645C-9D39-36C8-8C60-00055279D9DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{9E8ED444-221E-360D-8E2A-F7B04A2C1D6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FE10D037-F769-30BD-939D-CAAAB64D48CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7ED456F1-71EB-3B85-BB0F-4355CD0A7F45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
