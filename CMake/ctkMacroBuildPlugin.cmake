@@ -275,26 +275,43 @@ macro(ctkMacroBuildPlugin)
       BINARY_RESOURCES ${_plugin_cached_resources_in_binary_tree})
   endif()
 
-  source_group("Resources" FILES
-    ${MY_RESOURCES}
-    ${MY_UI_FORMS}
-    ${MY_TRANSLATIONS}
-    )
+##lmw add for header files group
 
-  source_group("Generated" FILES
-    ${MY_QRC_SRCS}
-    ${MY_MOC_CPP}
-    ${MY_UI_CPP}
-    ${_plugin_qm_files}
-    )
+set(header_reg ".h$|.tpp$")
+set(headers4group)
+set(headersInMoc)
+ctkMacroListFilter(MY_SRCS header_reg OUTPUT_VARIABLE headers4group)
+ctkMacroListFilter(MY_MOC_SRCS header_reg OUTPUT_VARIABLE headersInMoc)
 
-  add_library(${lib_name} ${MY_LIBRARY_TYPE}
-    ${MY_SRCS}
-    ${MY_MOC_CPP}
-    ${MY_UI_CPP}
-    ${MY_QRC_SRCS}
-    ${_plugin_qm_files}
-    )
+foreach(headfile ${headersInMoc})
+  list(APPEND headers4group ${headfile})
+endforeach()
+
+source_group("Resources" FILES
+  ${MY_RESOURCES}
+  ${MY_UI_FORMS}
+  ${MY_TRANSLATIONS}
+  )
+
+source_group("Generated" FILES
+  ${MY_QRC_SRCS}
+  ${MY_MOC_CPP}
+  ${MY_UI_CPP}
+  ${_plugin_qm_files}
+  )
+
+source_group("Headers" FILES
+  ${headers4group}
+)
+
+add_library(${lib_name} ${MY_LIBRARY_TYPE}
+  ${MY_SRCS}
+  ${MY_MOC_CPP}
+  ${MY_UI_CPP}
+  ${MY_QRC_SRCS}
+  ${_plugin_qm_files}
+  ${headers4group}
+  )
 
   if(NOT CMAKE_VERSION VERSION_LESS 2.8.12)
     target_include_directories(${lib_name}
